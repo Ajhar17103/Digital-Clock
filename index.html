@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Digital Clock APP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--styleSheet-->
+    <link  type='text/css' rel='stylesheet' href='./style/style.css'>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="./video/video.mp4" type="video/mp4">
+      
+    </video>
+      <div id="container">
+        <div class=" text-center my-3">
+          <h1>Digital Clock App</h1>
+          <hr/>
+        </div>
+        <div id='clockdiv'>
+          <div id='showTime'>
+            <h1 id='showClock'></h1> 
+            <h1 id='dayNight'></h1>
+           
+          </div> 
+          
+        </div>
+        
+       
+      </div>
+     
+    <script src='./mainJs/App.js'></script>
+  </body>
+</html>
